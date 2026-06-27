@@ -1,0 +1,956 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "8593b957-8f29-44d8-b1ce-12a23cd66c5f")
+	(paper "A4")
+	(lib_symbols
+		(symbol "LED:WS2813"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 5.08 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "WS2813"
+				(at 1.27 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf"
+				(at 2.54 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "RGB LED with integrated controller"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RGB LED addressable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*WS2812*PLCC*5.0x5.0mm*P1.6mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WS2813_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "WS2813_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "WS2813_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "BIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2813")
+		(at 149.86 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "052ed040-144f-426e-ab5d-9849d8e91bf7")
+		(property "Reference" "D5"
+			(at 160.02 51.9998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2813"
+			(at 160.02 54.5398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm"
+			(at 151.13 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf"
+			(at 152.4 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 149.86 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "264b2854-ec54-4de9-a7b0-b692e27f568d")
+		)
+		(pin "4"
+			(uuid "92628bb3-0a7a-46a5-9382-94ef334b6c96")
+		)
+		(pin "1"
+			(uuid "86e66127-fdf0-4dcc-ae1a-9f83e37d14f8")
+		)
+		(pin "2"
+			(uuid "4a108274-55bb-40d0-8fbf-fae6dd090599")
+		)
+		(pin "3"
+			(uuid "fe141df7-381d-43c2-898e-04fe301626c9")
+		)
+		(pin "5"
+			(uuid "e8ae7657-2466-41ec-8802-b4d0a5212e86")
+		)
+		(instances
+			(project "magnet_PCB"
+				(path "/a0d17921-6940-41ff-9343-421a30884307/d1eb29d1-2e25-468c-b266-8a0db73ea89d"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2813")
+		(at 170.18 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "676f5372-2382-47a3-8713-596d75fc68ec")
+		(property "Reference" "D6"
+			(at 180.34 53.2698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2813"
+			(at 180.34 55.8098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm"
+			(at 171.45 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf"
+			(at 172.72 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 170.18 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "58afcff1-78ad-4c3a-b066-d857ee98dc2f")
+		)
+		(pin "4"
+			(uuid "80f89d1a-dde3-4b6c-978d-a5bbf77828e1")
+		)
+		(pin "1"
+			(uuid "a6e0430e-fba2-4c5d-83b7-e4ea8e00684d")
+		)
+		(pin "2"
+			(uuid "0d35f9cb-2637-4437-9278-d584b33ec990")
+		)
+		(pin "3"
+			(uuid "6aa9b743-11c8-4ef4-9b9d-0a49caa3d64a")
+		)
+		(pin "5"
+			(uuid "d8dadef0-34e5-439c-ac5c-463393e3029a")
+		)
+		(instances
+			(project "magnet_PCB"
+				(path "/a0d17921-6940-41ff-9343-421a30884307/d1eb29d1-2e25-468c-b266-8a0db73ea89d"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2813")
+		(at 100.33 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6bc78149-bedf-4f7d-9405-42c9a29a6338")
+		(property "Reference" "D3"
+			(at 110.49 50.7298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2813"
+			(at 110.49 53.2698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm"
+			(at 101.6 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf"
+			(at 102.87 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 100.33 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "dc6465ea-651c-42fc-bbbc-69fb9a34e4cf")
+		)
+		(pin "4"
+			(uuid "1a0d19e1-53a2-4cd3-903d-b418ddf1af17")
+		)
+		(pin "1"
+			(uuid "5f2af0ba-1ad3-4a1c-b6e8-7298517d2a1c")
+		)
+		(pin "2"
+			(uuid "2ce5c2ca-2697-4827-9d18-a9a73a42696d")
+		)
+		(pin "3"
+			(uuid "6544dddf-f4c5-466e-a8b8-7c03b5dce685")
+		)
+		(pin "5"
+			(uuid "ddc0381d-94b0-4f6d-9522-51b801ade854")
+		)
+		(instances
+			(project "magnet_PCB"
+				(path "/a0d17921-6940-41ff-9343-421a30884307/d1eb29d1-2e25-468c-b266-8a0db73ea89d"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2813")
+		(at 220.98 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "860ac6a3-d6f1-444c-808d-ea1d94c6c2b3")
+		(property "Reference" "D8"
+			(at 231.14 55.8098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2813"
+			(at 231.14 58.3498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm"
+			(at 222.25 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf"
+			(at 223.52 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 220.98 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "c3f89faf-12d0-42fa-ad20-1831a6bd48ca")
+		)
+		(pin "4"
+			(uuid "7ef97171-2bc1-4bc2-86bf-5d4adf7a12b8")
+		)
+		(pin "1"
+			(uuid "56f81330-6fc1-404c-bfdc-9552c030262c")
+		)
+		(pin "2"
+			(uuid "77d4959b-6a2d-47f3-9b47-08648cee0524")
+		)
+		(pin "3"
+			(uuid "cfb6bb27-d521-4c66-a046-6e408c007e42")
+		)
+		(pin "5"
+			(uuid "acd89062-ef8a-4d5b-be43-1edb416d4aa7")
+		)
+		(instances
+			(project "magnet_PCB"
+				(path "/a0d17921-6940-41ff-9343-421a30884307/d1eb29d1-2e25-468c-b266-8a0db73ea89d"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2813")
+		(at 50.8 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8aff4e9a-6773-4405-b364-a652a63aba4c")
+		(property "Reference" "D1"
+			(at 60.96 50.7298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2813"
+			(at 60.96 53.2698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm"
+			(at 52.07 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf"
+			(at 53.34 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 50.8 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "1376363f-4c60-4634-9582-b6a8c3071865")
+		)
+		(pin "4"
+			(uuid "ae7bf717-1faa-4a7a-be56-b22268dbc8b2")
+		)
+		(pin "1"
+			(uuid "f9b055d7-52ab-4d7f-ab76-2a6e421defda")
+		)
+		(pin "2"
+			(uuid "9416ea22-fdad-4491-9134-8606b92ba574")
+		)
+		(pin "3"
+			(uuid "452ded71-6bb7-416a-a91c-86f0f64d0113")
+		)
+		(pin "5"
+			(uuid "d495dd12-e3f3-4896-b4b2-23c6b751c1b6")
+		)
+		(instances
+			(project "magnet_PCB"
+				(path "/a0d17921-6940-41ff-9343-421a30884307/d1eb29d1-2e25-468c-b266-8a0db73ea89d"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2813")
+		(at 127 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9fe6fb7f-4425-4fde-81d6-a9f97c7ed916")
+		(property "Reference" "D4"
+			(at 137.16 50.7298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2813"
+			(at 137.16 53.2698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm"
+			(at 128.27 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf"
+			(at 129.54 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 127 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "4ce23547-1006-47cd-8eda-e7b21753ee15")
+		)
+		(pin "4"
+			(uuid "7b75892a-158e-4e07-ab49-a96ad97f9c42")
+		)
+		(pin "1"
+			(uuid "cb94a928-805c-4d88-96dc-88037d4f2592")
+		)
+		(pin "2"
+			(uuid "dba509c5-97ae-4b02-a103-99da2fa0b018")
+		)
+		(pin "3"
+			(uuid "b37e2449-646b-4a08-ba4c-3385cc7acfbf")
+		)
+		(pin "5"
+			(uuid "91908051-e201-4314-948f-ceb6f79377d6")
+		)
+		(instances
+			(project "magnet_PCB"
+				(path "/a0d17921-6940-41ff-9343-421a30884307/d1eb29d1-2e25-468c-b266-8a0db73ea89d"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2813")
+		(at 194.31 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5e49d62-39a6-4d57-a65a-9c174eb8a9c0")
+		(property "Reference" "D7"
+			(at 204.47 53.2698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2813"
+			(at 204.47 55.8098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm"
+			(at 195.58 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf"
+			(at 196.85 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 194.31 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "4d40c4bf-2b41-434f-b5a0-c75303fcd2e6")
+		)
+		(pin "4"
+			(uuid "bcaec9e9-2ce9-4707-bd33-01d845246230")
+		)
+		(pin "1"
+			(uuid "876f0993-b023-4200-96b1-e12d80fef357")
+		)
+		(pin "2"
+			(uuid "688a1e28-e0ca-4097-90d4-f4f9947fc8b2")
+		)
+		(pin "3"
+			(uuid "3c695c68-241d-4a6f-bd65-2b34ed6013e2")
+		)
+		(pin "5"
+			(uuid "b1aa3101-c636-4df1-bccc-31e9753eb488")
+		)
+		(instances
+			(project "magnet_PCB"
+				(path "/a0d17921-6940-41ff-9343-421a30884307/d1eb29d1-2e25-468c-b266-8a0db73ea89d"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2813")
+		(at 73.66 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cda6bd9a-46cd-41bc-9922-17c2acbded7c")
+		(property "Reference" "D2"
+			(at 83.82 50.7298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2813"
+			(at 83.82 53.2698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm"
+			(at 74.93 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf"
+			(at 76.2 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 73.66 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "493d3127-a305-42cb-86de-9564dc5c874f")
+		)
+		(pin "4"
+			(uuid "a43333cd-1249-4e16-b17e-9afb3199bbcf")
+		)
+		(pin "1"
+			(uuid "c5aef87d-b89f-45f9-b5eb-bf2c0f2109b4")
+		)
+		(pin "2"
+			(uuid "dacf4395-31a7-47bd-a27f-c90a6f1b12b3")
+		)
+		(pin "3"
+			(uuid "412b48d5-aa86-451c-8b24-1d94a9c4f708")
+		)
+		(pin "5"
+			(uuid "08169671-7908-4860-bf5c-8171934c5ffc")
+		)
+		(instances
+			(project "magnet_PCB"
+				(path "/a0d17921-6940-41ff-9343-421a30884307/d1eb29d1-2e25-468c-b266-8a0db73ea89d"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
