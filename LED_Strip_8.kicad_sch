@@ -1804,71 +1804,38 @@
 		)
 		(uuid "fc3d69f3-f3d8-48e5-a619-cf5ea2d58386")
 	)
-	(global_label "5V"
-		(shape input)
-		(at 38.1 33.02 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "27213f92-4b5a-48a5-a17e-6f85f4673d30")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.8167 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
+	(hierarchical_label "GND"
 		(shape input)
 		(at 39.37 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "6a4c55de-1309-4fa5-9950-622e19a1f186")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.5143 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "0d235c2d-d277-4998-9903-6f7133a9d63a")
 	)
-	(global_label "DIN"
+	(hierarchical_label "DIN"
 		(shape input)
 		(at 39.37 57.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "7fd6f6dc-ba23-406c-a191-8d25078aa9c4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.1795 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
+		(uuid "558e4cc0-13f1-482d-b0b0-8a4312f4b552")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 38.1 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
+		(uuid "e8287220-c83a-4be2-8749-568f5200823c")
 	)
 	(symbol
 		(lib_id "LED:WS2813")

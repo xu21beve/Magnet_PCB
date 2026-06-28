@@ -617,6 +617,14 @@
     [
       "d1eb29d1-2e25-468c-b266-8a0db73ea89d",
       "LED_Strip_8"
+    ],
+    [
+      "a02043aa-9348-4ccb-8a64-ece0405ccb23",
+      "3V3 Regulator"
+    ],
+    [
+      "cccf1c30-afd8-4e75-99bf-1d09c6527322",
+      "5V Regulator"
     ]
   ],
   "text_variables": {}
