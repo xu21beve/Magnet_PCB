@@ -3792,7 +3792,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 81.28 161.29 0)
+		(at 57.15 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3801,7 +3801,7 @@
 		(fields_autoplaced yes)
 		(uuid "c64bc3e4-d3cb-4b52-96c5-dfdd9bd91e02")
 		(property "Reference" "BT1"
-			(at 85.09 158.1784 0)
+			(at 60.96 142.9384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3810,7 +3810,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 85.09 160.7184 0)
+			(at 60.96 145.4784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3819,7 +3819,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 159.766 90)
+			(at 57.15 144.526 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3828,7 +3828,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 159.766 90)
+			(at 57.15 144.526 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3837,7 +3837,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 81.28 161.29 0)
+			(at 57.15 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
